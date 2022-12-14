@@ -1,0 +1,78 @@
+/* footer */
+.Footer{
+    height: 255px;
+    width: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .f-content{
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+  .col1{
+    width: 283px;
+    height: 100%;
+    /* background-color: #425FFB; */
+  }
+  .col1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .col1 li{
+    margin: 0px 0px 10px;
+    font-size: 14px;
+  }
+  .col2{
+    width: 350px;
+    height: 100%;
+    /* background-color:lightgreen; */
+  }
+  .contact{
+    width: 348px;
+    height: 18px;
+    margin: 0px 0px 20px;
+    /* background-color: aqua; */
+  }
+  .contact img{
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+  .contact span{
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .certificate{
+    width: 350px;
+    height: 75px;
+    margin-bottom: 20px;
+  }
+  .certificate img{
+    height: 25px;
+    margin-left: 10px;
+  }
+  .website{
+    width: 100%;
+    height: 110px;
+  }
+  .website img{
+    width: 80px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .dropdown-item{
+    
+   
+    display: none;
+  }
