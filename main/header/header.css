@@ -1,0 +1,129 @@
+.Header {
+    height: 120px;
+    width: auto;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+  }
+  .Header a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .Header a{
+    color: black;
+  }
+  /* top header */
+  .TopHeader {
+    flex: 1;
+    background-color: #ffd42d;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoImage img {
+    width: 228px;
+    height: 40px;
+    /* margin-left: 150px; */
+    padding-top: 5px;
+  }
+  .DiaChi {
+    width: 137px;
+    height: 38px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+  }
+  .inputSearch {
+    width: 301px;
+    height: 40px;
+    background-color: lightgreen;
+    margin-left: 15px;
+  }
+  .LichSuDon {
+    width: 96px;
+    height: 40px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+  }
+  .GioHang {
+    width: 112px;
+    height: 40px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+  }
+  .GioHang img {
+    width: 25px;
+    height: 24px;
+  }
+  .otherChoice {
+    width: 250px;
+    height: 36px;
+    background-color: #ffbc29;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .TopHeader div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  .otherChoice div {
+    font-size: 14px;
+    flex: 1;
+  }
+  
+  /* bot header */
+  .BotHeader {
+    flex: 1;
+    background-color: #ffd42d;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .BotHeader ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  ul{
+    padding-inline-start: 0px;
+  }
+  .eventList ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .eventList li {
+    background-color: #ffd42d;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .BotHeader li {
+    background-color: #ffd42d;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .BotHeader ul li img {
+    width: 20px;
+    height: 20px;
+  }
+  ul a {
+    text-decoration: none;
+    color: black;
+  }
+  .Menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
